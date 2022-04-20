@@ -1,0 +1,43 @@
+ .logo{
+   margin: 5vw;
+  height: 20vw;  
+ }
+  
+  .logoJose {
+    border-radius: 50%;
+    height: 60vw;  
+    margin-bottom: 10vw;
+    margin-top: 0vw;
+  }
+ 
+  .text{
+    /* margin-top: 5vw;
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    padding: 100px; */
+    margin-top: 15vw;
+    color: white;
+    font-size: 3vw;
+    font-style:italic;
+    font-family: 'Playball', cursive;
+  }
+  .firma{
+     
+    color: white;
+    font-size: 2vw; 
+    font-family: 'Playball', cursive;
+  }
+
+  p {
+   
+    color: white;
+  }
+  .div1 {
+    background-color: black;
+    background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");  
+    margin: 0;
+    padding: 0; 
+  }
+
+ 

@@ -1,10 +1,21 @@
+* {
+  margin: 0;
+  padding: 0; 
+}
+
 body {
-  background-color: #000000;
-  background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");  
+  background-color:  black;
+  /* background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");   */
  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+:root {
+  --text: white;
+  --logoColor: #649fcb;
+  
 }
