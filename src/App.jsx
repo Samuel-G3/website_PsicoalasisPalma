@@ -11,15 +11,18 @@ import Curso1 from "./pages/cursos/Curso1";
 import Curso2 from "./pages/cursos/Curso2";
 import Curso3 from "./pages/cursos/Curso3";
 import CursoEspecial from "./pages/cursos/CursoEspecial";
+import Footer from "./components/Footer";
+// import Carousel from "./components/Carousel";
 
 import NavBoot from "./components/NavBoot";
-
+import Cards from "./components/Cards";
  
  
 
 function App() {
   return (
     <div className="App">
+      
       <Router>
         <NavBoot />
         <Routes>
@@ -33,7 +36,11 @@ function App() {
           <Route path="/curso3" element={<Curso3 />} />
           <Route path="/cursoespecial" element={<CursoEspecial />} />
         </Routes>
+        
+        <Footer/>
       </Router>
+     
+    
     </div>
   );
 }

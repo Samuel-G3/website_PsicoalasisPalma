@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+ .card-div {
+  background: rgb(0,0,0);
+  background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(100,159,203,1) 39%, rgba(100,159,203,1) 100%); 
+
+  /* background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");  
+  background: rgb(0,0,0); */
+   
+ }

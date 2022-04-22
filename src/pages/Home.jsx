@@ -1,15 +1,17 @@
 import React from "react";
-import "./Home.css";
-import Image from "react-bootstrap/Image";
+import "./Home.css"; 
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 import Container from "react-bootstrap/Container";
+import Carou from "../components/Carou";
+ 
 
 const Home = () => {
   return (
     <div className="div1">
-      <img className="logo" src="./l2.png" alt="bla bla" />
+     
+      <img className="fluid col-4" src="./l2.png" alt="bla bla" />
       <Container>
         <Row>
           <Col>
@@ -26,26 +28,29 @@ const Home = () => {
           </Col>
         </Row>
       </Container>
-   
-      <Row xs={1} md={2} className="g-4">
- 
- 
-        {Array.from({ length: 4 }).map((_, idx) => (
-          <Col>
-            <Card>
-              <Card.Img variant="top" src="holder.js/100px160" />
-              <Card.Body>
-                <Card.Title>Card title</Card.Title>
-                <Card.Text>
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          </Col>
-        ))}
-      </Row>
+      <section className="hero text-white py-5 flex-grow-1">
+          <div className="container py-4">
+            <div className="row">
+              <div className="col-lg-6">
+                <h1 className="display-4">Bootstrap footer bottom</h1>
+                <p className="fst-italic text-muted">
+                  Using Bootstrap 5 flexbox utilities, create a footer that
+                  always sticks to the bottom of your viewport. Snippet by{" "}
+                  <a
+                    className="text-primary"
+                    href="https://bootstrapious.com/"
+                    target="_blank"
+                  >
+                    Bootstrapious
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+    <Carou/>
+
+    
     </div>
   );
 };
