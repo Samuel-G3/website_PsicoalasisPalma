@@ -5,12 +5,12 @@ import "./Carou.css";
 
 const Carou = () => {
   return (
-    <div>
+    <div className="background">
       <Carousel>
         <Carousel.Item>
           <img
-            className="d-block w-100"
-            src="https://i.imgur.com/xdNQiAl.jpg?1"
+            className="img-fluid"
+            src="https://i.imgur.com/tOs9xfL.jpg"
             alt="First slide"
           />
           <Carousel.Caption>
@@ -20,8 +20,19 @@ const Carou = () => {
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="d-block w-100"
-            src="https://i.imgur.com/1b6yHr0.jpg?1"  
+            className="img-fluid"
+            src="https://i.imgur.com/wBJ2kNB.jpg"
+            alt="Second slide"
+          />
+          <Carousel.Caption>
+            <h3>First slide label</h3>
+            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="img-fluid"
+            src="https://i.imgur.com/1Fo6Rbc.jpg"
             alt="Second slide"
           />
 
@@ -32,9 +43,20 @@ const Carou = () => {
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="d-block w-100"
-            src="https://i.imgur.com/Waiz2Nf.jpg?1"
+            className="img-fluid"
+            src="https://i.imgur.com/CLWiFyH.jpg"
             alt="Third slide"
+          />
+           <Carousel.Caption>
+            <h3>First slide label</h3>
+            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="img-fluid"
+            src="https://i.imgur.com/l31jZzC.jpg"
+            alt="Second slide"
           />
 
           <Carousel.Caption>

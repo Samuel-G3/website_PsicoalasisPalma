@@ -1,39 +1,190 @@
- .logo{
-   margin: 5vw;
-  height: 20vw;  
- }
+.joseImg {
+  border-radius: 50%;
+  margin:  0rem  0rem  2rem -1rem;
+  transform: scaleX(-1);
+  filter: drop-shadow(5px 1px 5px  rgba(5, 0, 44, 0.782));
+   width: 15rem;
+}
   
-  .logoJose {
-    border-radius: 50%;
-    height: 60vw;  
-    margin-bottom: 10vw;
-    margin-top: 0vw;
-  }
- 
-  .text{
- 
-    margin-top: 15vw;
-    color: white;
-    font-size: 3vw;
-    font-style:italic;
-    font-family: 'Playball', cursive;
-  }
-  .firma{
-     
-    color: white;
-    font-size: 2vw; 
-    font-family: 'Playball', cursive;
-  }
 
+ 
+ @media screen and (min-width: 800px) {
+  .joseImg {
+    font-size: 3rem;
+    max-width: 35rem;
+  }
+}
+  
+
+
+
+.text {
+  padding : 25px;
+ 
+  font-size: 1.5rem;
+  font-style: italic;
+  font-family: "Playball", cursive;
+  text-shadow: 1px 1px 1px rgba(45, 53, 126, 0.428);
+}
+@media screen and (min-width: 800px) {
+  .text {
+    font-size: 3rem;
+  }
+}
+.text2{
+  padding: 25px;
+  color: rgb(23, 5, 5);
+}
+.firma {
+  color: white;
+  font-size: 0.75rem;
+  padding: 25px;
+  font-family: 'Merriweather', serif;
+}
+@media screen and (min-width: 800px) {
+  .firma {
+    font-size: 1.5rem;
+  }
+}
+
+img {
+ 
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(3px 3px 3px rgba(34, 34, 34, 0.612));
+}
+
+.jose1 {
+/*  
+  -webkit-filter: drop-shadow(5px 5px 5px #222); */
+  filter: drop-shadow(5px 1px 5px  rgba(5, 0, 44, 0.782));
+  /* transform: scaleX(-1); */
+}
+
+
+p {
+  color: white;
+  font-size: 1rem;
+}
+@media screen and (min-width: 800px) {
   p {
-   
-    color: white;
+    font-size: 2rem;
+    
   }
-  .div1 {
-    background-color: black;
-    background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");  
-    margin: 0;
-    padding: 0; 
-  }
+}
+
+/* .background {
+  background-color: black;
+  background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
+  margin: 0;
+  padding: 0;
+} */
+
+.backgroundAzul {
+  /* background-color: #a3c9e4;
+  background-image: url("https://www.transparenttextures.com/patterns/snow.png"); */
+  
+  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(81,131,169,1) 60%, rgba(14,88,143,1) 100%);
+  margin: 0;
+  padding: 0;
+  
+}
 
  
+.backgroundAzul2 {
+  /* background-color: #a3c9e4;
+  background-image: url("https://www.transparenttextures.com/patterns/snow.png"); */
+  
+  background: linear-gradient(180deg, 
+  rgba(4,88,143,1) 0%, 
+  rgba(81,131,169,1) 60%, 
+  rgba(4,88,143,1) 100%
+  );
+  
+  
+  
+  margin: 0;
+  padding: 0;
+  
+}
+
+
+
+
+
+
+
+.background2 {
+  /* background-color: #5183a9;
+  background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
+  margin: 0;
+  padding: 0; */
+  background: rgb(255,255,255);
+  filter: drop-shadow(5px 1px 5px  rgba(5, 0, 44, 0.782));
+  
+}
+
+
+
+.backgroundBlanco {
+  background-color: white;
+}
+
+.divText {
+  padding: 1rem 0rem 1rem 0rem; 
+  
+  background: rgba(255, 255, 255, 0.97);
+  box-shadow: 5px 2px 2px rgb(1, 3, 59);
+  border-radius: 1%;
+ 
+ 
+ 
+ 
+}
+
+  /* .txtjose2{
+    vertical-align: middle;
+ } */
+  
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+
+.txtjose3 {
+  margin-top: .5rem;
+  font-size: 1rem;
+  font-style: bold;
+  font-family: 'Merriweather', serif; 
+  text-shadow: 1px 1px 1px rgba(45, 53, 126, 0.428);
+  text-decoration: underline .2rem;
+
+  /* background: rgb(255,255,255); */
+}
+@media screen and (min-width: 800px) {
+  .txtjose3 {
+    font-size: 2rem;
+    
+    /* width: 35vw; */
+    
+  }
+}
+
+
+.txtjose4 {
+  margin: 1rem; 
+  
+  /* background: rgb(255,255,255); */
+}
+@media screen and (min-width: 800px) {
+  .txtjose4 {
+    font-size: 1.4rem;
+    margin-top: 2rem;
+    
+  }
+}
+
+  /* .imgjose2{
+  margin-left: 100px;
+  
+} */
+

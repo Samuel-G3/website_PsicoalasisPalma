@@ -16,3 +16,6 @@ linea:
     borderColor : '#649fcb' 
       
 }}/>
+
+
+https://samug3.imgur.com/all

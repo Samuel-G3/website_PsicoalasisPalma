@@ -29,10 +29,19 @@
   }
   
   footer {
-    background: #212529;
+    background: rgb(255,255,255);
+    filter: drop-shadow(5px 1px 5px  rgba(5, 0, 44, 0.782));
   }
-  
-  
+  /* .background {
+    background-color: black;
+    background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
+    margin: 0;
+    padding: 0;
+  } */
+  .logoFooter{
+    
+  }
+
   /* ==========================================
       CUSTOM UTILS CLASSES
     ========================================== */

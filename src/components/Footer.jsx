@@ -2,7 +2,6 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Footer.css";
 
-
 const Footer = () => {
   return (
     <div>
@@ -28,18 +27,24 @@ const Footer = () => {
           </div>
         </section> */}
 
-        <footer className="w-100 py-4 flex-shrink-0">
+        <footer className=" background w-100 py-4 flex-shrink-0">
           <div className="container py-4">
             <div className="row gy-4 gx-5">
-            <div className="col-lg-4 col-md-6">
-                <h5 className="text-white mb-3">Newsletter</h5>
-                <p className="small text-muted">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt.
-                </p>
+              <div className="col-lg-4 col-md-6">
+                <h5 className="text-dark mb-3">Hay otra menera de vivir</h5>
+                <ul className="list-unstyled text-muted">
+                  <li>
+                    <p className="small text-muted">
+                      La Mirada del Otro Ediciones
+                    </p>
+                    <a className="text-primary" href="https://lamiradadelotroediciones.com">
+                      https://lamiradadelotroediciones.com
+                    </a>
+                  </li>
+                </ul>
               </div>
               <div className="col-lg-2 col-md-6">
-                <h5 className="text-white mb-3">Quick links</h5>
+                <h5 className="text-dark mb-3">Links</h5>
                 <ul className="list-unstyled text-muted">
                   <li>
                     <a href="#">Home</a>
@@ -55,70 +60,42 @@ const Footer = () => {
                   </li>
                 </ul>
               </div>
-              <div className="col-lg-2 col-md-6">
-                <h5 className="text-white mb-3">Quick links</h5>
 
-                <div class="contact_info">
-                  <div class="single_info">
-                    <div class="icon">
-                      <i class="fas fa-phone-alt"></i>
-                    </div>
-                    <div class="info">
-                      
-                      <p>
-                        <a href="tel:+919246147999">+91 924-614-7999</a>
-                      </p>
-                    </div>
-                  </div>
-                  <div class="single_info">
-                    <div class="icon">
-                      <i class="fas fa-envelope"></i>
-                    </div>
-                    <div class="info">
-                      <p>
-                        <a href="mailto:info@deneb.com">info@deneb.com</a>
-                      </p>
-                      <p>
-                        <a href="mailto:services@deneb.com">
-                          services@deneb.com
-                        </a>
-                      </p>
-                    </div>
-                  </div>
-                  <div class="single_info">
-                    <div class="icon">
-                      <i class="fa fa-envelopes-bulk"></i>
-                    </div>
-                    <div class="info">
-                      <p>
-                        125, Park street aven, Brocklyn,<span>Newyork.</span>
-                      </p>
-                    </div>
-                  </div>
-                </div>
+              <div className="col-lg-2 col-md-6">
+                <h5 className="text-dark mb-3">Contacto</h5>
+                <ul className="list-unstyled text-muted">
+                  <li>
+                    <a href="#"> 871 94 89 01</a>
+                  </li>
+                  <li>
+                    <a className="text-primary" href="mailto:gabinete@psicoanalisispalma.com">
+                      gabinete@psicoanalisispalma.com
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      Carrer de Tomàs Forteza, 17, 07006 Palma
+                      <span>Illes Balears</span>
+                    </a>
+                  </li>
+                </ul>
               </div>
 
-              
               <div className="col-lg-4 col-md-6">
-                {/* <h5 className="h1 text-white">FB.</h5> */}
                 <img
-            className="d-block w-100"
-            src="https://i.imgur.com/WKRDocJ.png"  
-            alt="Second slide"
-          />
-                {/* <p className="small text-muted">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt.
-                </p> */}
+                  className="fluid w-50"
+                  src="./logocirBLue.png"
+                  alt="Second slide"
+                />
+
                 <p className="small text-muted mb-0">
                   &copy; Copyrights. All rights reserved.{" "}
                   <a className="text-primary" href="#">
-                   www.gabinetepsicoanaliticopalma.com
+                    www.gabinetepsicoanaliticopalma.com
                   </a>
                 </p>
               </div>
             </div>
-            
           </div>
         </footer>
       </div>

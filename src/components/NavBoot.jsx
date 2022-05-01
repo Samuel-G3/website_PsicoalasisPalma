@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./Navboot.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Nav, Container, Navbar, NavDropdown } from "react-bootstrap";
 
@@ -8,9 +8,9 @@ import { LinkContainer } from "react-router-bootstrap";
 const NavBoot = () => {
   return (
     <div>
-      
+      {/* bg="dark" variant="dark" */}
       {" "}
-      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+      <Navbar collapseOnSelect expand="lg"      bg="light"> 
         {/* <LinkContainer to="/">
           <Nav.Link>
             <img
@@ -25,7 +25,7 @@ const NavBoot = () => {
           <img
             src="/logoMiniAzul.png"
             width="30"
-            className="d-inline-block align-top"
+            className="logo   d-inline-block align-top"
             alt="Logo gabinete psicoanalitico Palma"
           />
 
