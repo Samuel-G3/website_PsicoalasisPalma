@@ -5,6 +5,7 @@ import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 import Container from "react-bootstrap/Container";
 import Carou from "../components/Carou";
+import LogoMain from "../components/LogoMain";
 
 //className="fluid col-6"
 
@@ -13,7 +14,7 @@ const Home = () => {
     <div className="backgroundBlanco">
       {/* section __________________________________________________ */}
       <div className="backgroundAzul">
-        <img className=" col-10 col-lg-3" src="./logo3.png" alt="bla bla" />
+       <LogoMain/>
 
         <Container>
           <Col>

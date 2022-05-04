@@ -7,7 +7,7 @@ import { LinkContainer } from "react-router-bootstrap";
 
 const NavBoot = () => {
   return (
-    <div>
+    <div className="navbarMain">
       {/* bg="dark" variant="dark" */}
       {" "}
       <Navbar collapseOnSelect expand="lg"      bg="light"> 
