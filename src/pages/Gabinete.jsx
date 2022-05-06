@@ -43,7 +43,7 @@ const Gabinete = () => {
         </div>
       </div>
 
-          <Carousel className="backgroundCarousel">
+          <Carousel className="backgroundCarousel  pb-5">
         <Carousel.Item>
           <img
             className="  img-fluid"
